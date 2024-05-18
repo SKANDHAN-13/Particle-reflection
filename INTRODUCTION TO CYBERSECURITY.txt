@@ -1,0 +1,55 @@
+INTRODUCTION TO CYBERSECURITY
+
+***********************************************CHAPTER 1****************************************************************************
+
+CIA TRIAD
+Confidentiality : Restrict access of data only to authorized personnel and ensure that only those authorized indivaiduals view this data.
+
+Integrity : The accuracy, consistency and trustworthiness of data during its entire life cycle. A checksum is used to verify the integrity of files, strings of characters after they have been transferred from one device to another across your local network or internet. Checksums are calculated using hash functions. Hash functions are mathematical algorithm to  transform data into fixed length value that represents the data. The hashed value is simply there for comparison. Original data can't be retrieved directly from them. After downloading a file, we can verify its integrity by verifying its hash values from the source using hash calculator.
+
+Availability : Maintaining equipment, performing hardware repairs, keeping operating systems and software up to date, and creating backups ensure the availability of the network and data to the authorized users. Plans should be in place to recover quickly from natural or man-made disasters. Security equipment or software, such as firewalls, guard against downtime due to attacks such as denial of service (DoS). Denial of service occurs when an attacker attempts to overwhelm resources so the services are not available to the users. 
+
+https://vimeo.com/25118844 : video about stuxnet
+
+TEST WRONG ANSWERS:-
+make political statements, or create fear, by causing physical or psychological damage to victims → terrorists, make political statements in order to create an awareness of issues that are important to them → hacktivists, gather intelligence or commit sabotage on specific goals on behalf of their government → state-sponsored attackers
+
+What is a reason that internal security threats might cause greater damage to an organization than external security threats?
+Internal users have direct access to the infrastructure devices.
+
+A group of environmentalists launch a denial of service attack against an oil company that is responsible for a large oil spill. This is HACKTIVISM.
+
+*****************************************************CHAPTER 2***************************************************************************
+Types of software security vulnerabilities-
+
+Buffer Overflow : When a malicious 
+Non-validated input : Data coming into the program might have malicious content
+Race conditions : Whe output of an event depends on timed or ordered outputs
+Weakness in security practices : When developers try to create thier own security applications
+Access control problems : Incorrectly regulating who does what with the resources
+
+
+TEST:
+What is the most common goal of search engine optimization (SEO) poisoning?
+A malicious user could create a SEO so that a malicious website appears higher in search results. The malicious website commonly contains malware or is used to obtain information via social engineering techniques.
+The correct answer is: to increase web traffic to malicious sites
+
+Which two characteristics describe a worm?
+Worms are self-replicating pieces of software that consume bandwidth on a network as they propagate from system to system. They do not require a host application, unlike a virus. Viruses, on the other hand, carry executable malicious code which harms the target machine on which they reside.
+The correct answers are: is self-replicating, travels to new computers without any intervention or knowledge of the user
+
+What is the primary goal of a DoS attack?
+to prevent the target server from being able to handle additional requests
+
+
+
+
+
+
+
+
+
+OAuth 2.0
+Open Authorization (OAuth) is an open standard protocol that allows an end user’s credentials to access third party applications without exposing the user’s password. OAuth acts as the middle man to decide whether to allow end users access to third party applications. For example, say you want to access web application XYZ, and you do not have a user account for accessing this web application. However, XYZ has the option to allow you to log in using the credentials from a social media website ABC. So you access the website using the social media login.
+
+For this to work, the application ‘XYZ’ is registered with ‘ABC’ and is an approved application. When you access XYZ, you use your user credentials for ABC. Then XYZ requests an access token from ABC on your behalf. Now you have access to XYZ. XYZ knows nothing about you and your user credentials, and this interaction is totally seamless for the user. Using secret tokens prevents a malicious application from getting your information and your data.
